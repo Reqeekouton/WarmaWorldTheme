@@ -2,19 +2,19 @@
 
 /* 引入SCP基金会的Sigma-9版式 */
 
-@import url('https://scp-wiki-cn.wikidot.com/component:theme/code/1');
+@import url('https://warmaworldtheme.pages.dev/ImportCSS/S9.css');
 
 /* 引入Sigma+扩展 */
 
-@import url('https://scp-wiki-cn.wikidot.com/component:sigma-plus/code/1');
+@import url('https://warmaworldtheme.pages.dev/ImportCSS/S9P.css');
 
 /* 引入柔和天空版式 */
 
-@import url('https://scp-wiki-cn.wikidot.com/theme:pastel-skies/code/1');
+@import url('https://warmaworldtheme.pages.dev/ImportCSS/pastel-skies.css');
 
 /* 引入折叠侧边栏 */
 
-@import url(https://scp-wiki-cn.wdfiles.com/local--code/component:toggle-sidebar/1);
+@import url(https://warmaworldtheme.pages.dev/ImportCSS/toggle-sidebar.css);
 
 /* 修折叠侧栏样式 */
 
