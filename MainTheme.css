@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* 引入SCP基金会的Sigma-9版式 */
+
+@import url('https://scp-wiki-cn.wikidot.com/component:theme/code/1');
+
+/* 引入Sigma+扩展 */
+
+@import url('https://scp-wiki-cn.wikidot.com/component:sigma-plus/code/1');
+
+/* 引入柔和天空版式 */
+
+@import url('https://scp-wiki-cn.wikidot.com/theme:pastel-skies/code/1');
+
+/* 引入折叠侧边栏 */
+
+@import url(https://scp-wiki-cn.wdfiles.com/local--code/component:toggle-sidebar/1);
+
+/* 修折叠侧栏样式 */
+
+#top-bar .open-menu a {
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 0.15em solid rgb(var(--dark-purple));
+    background-color: rgba(var(--top-bar-color), 0.6);
+    border-radius: 0;
+    color: rgb(var(--dark-purple));
+}
+
+
+/* 超窄屏顶栏适配 */
+
+
+/* 待做，以下代码未启用，因为这个版式的顶栏布局貌似和Sigma-9不一样，没搞懂：
+ 
+
+@media (min-width: 301px) and (max-width: 479px) {
+    #top-bar li a {
+        padding: 1px 3vw;
+    }
+}
+@media (min-width: 288px) and (max-width: 301px) {
+    #top-bar li a {
+        padding: 1px 2.5vw;
+    }
+}
+@media (min-width: 271px) and (max-width: 288px) {
+    #top-bar li a {
+        padding: 1px 2vw;
+    }
+}
+@media (min-width: 258px) and (max-width: 271px) {
+    #top-bar li a {
+        padding: 1px 1.5vw;
+    }
+}
+@media (min-width: 245px) and (max-width: 258px) {
+    #top-bar li a {
+        padding: 1px 1vw;
+    }
+}
+@media (min-width: 231px) and (max-width: 245px) {
+    #top-bar li a {
+        padding: 1px 0.5vw;
+    }
+}
+@media (max-width: 231px) {
+    #top-bar li a {
+        padding: 1px 0;
+    }
+}
+
+*/
