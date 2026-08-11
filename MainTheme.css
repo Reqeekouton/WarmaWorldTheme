@@ -14,11 +14,16 @@
 
 /* 引入折叠侧边栏 */
 
-@import url(https://warmaworldtheme.pages.dev/ImportCSS/toggle-sidebar.css);
+@import url('https://warmaworldtheme.pages.dev/ImportCSS/toggle-sidebar.css');
 
 /* 文字样式 */
+
 body {
     font-size: 0.825em;
+}
+
+#page-content { 
+    font-size: 0.985em;
 }
 
 /* 修折叠侧栏样式 */
