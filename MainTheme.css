@@ -16,6 +16,11 @@
 
 @import url(https://warmaworldtheme.pages.dev/ImportCSS/toggle-sidebar.css);
 
+/* 文字样式 */
+body {
+    font-size: 0.825em;
+}
+
 /* 修折叠侧栏样式 */
 
 #top-bar .open-menu a {
